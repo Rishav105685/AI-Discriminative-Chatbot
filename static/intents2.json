@@ -1,0 +1,516 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Hey! How can I assist you?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Have a great day.", "See you later! Come back soon.", "Take care!"],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+        "responses": ["You're welcome!", "My pleasure to assist.", "Glad to help!"],
+        "context": [""]
+      },
+      {
+        "tag": "about_dimts",
+        "patterns": ["dimts","What does DIMTS do?", "Tell me about DIMTS", "What services does DIMTS offer?"],
+        "responses": [
+          "DIMTS (Delhi Integrated Multi-Modal Transit System) is an urban transport and infrastructure development company based in Delhi, India. It provides consultancy, project management, and operations & maintenance services in transportation and urban development projects.",
+          "DIMTS specializes in enhancing urban mobility through innovative solutions and sustainable development practices.",
+          "DIMTS focuses on integrating various modes of transport to improve commuter experience and reduce congestion."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "contact_info",
+        "patterns": ["How can I contact DIMTS?", "What are DIMTS's contact details?", "Where is DIMTS located?"],
+        "responses": [
+          "You can reach DIMTS at their office in Delhi: DIMTS Ltd., 2nd Floor, Maharana Pratap ISBT Building, Kashmere Gate, Delhi - 110006, India. Phone: +91-11-23935750, Email: info@dimts.in",
+          "For contact details and office address, visit their official website: https://www.dimts.in/contact-us/",
+          "DIMTS is located at Maharana Pratap Inter State Bus Terminus (ISBT), Kashmere Gate, Delhi."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "services",
+        "patterns": ["What services does DIMTS offer?", "Tell me about DIMTS's services", "Services provided by DIMTS"],
+        "responses": [
+          "DIMTS offers a wide range of services including urban transport planning, project management, intelligent transportation systems (ITS), parking management, and infrastructure development.",
+          "They specialize in bus rapid transit (BRT) systems, smart card-based fare collection, and traffic management solutions.",
+          "DIMTS provides consultancy services for urban mobility, public transportation, and transit-oriented development (TOD) projects."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "partnerships",
+        "patterns": ["Who are DIMTS's partners?", "Tell me about DIMTS's partnerships", "Partners of DIMTS"],
+        "responses": [
+          "DIMTS collaborates with various government agencies, municipal corporations, and private enterprises to implement urban transport solutions.",
+          "Their key partnerships include associations with Delhi government departments, transportation authorities, and infrastructure developers.",
+          "DIMTS partners with technology firms and global consultants to bring cutting-edge solutions to urban mobility challenges."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "projects",
+        "patterns": ["What are some projects by DIMTS?", "Tell me about DIMTS's projects", "Projects undertaken by DIMTS"],
+        "responses": [
+          "DIMTS has been involved in significant projects such as the Delhi Integrated Multi-Modal Transit System (DIMTS), implementation of the Intelligent Transport Management System (ITMS) in Delhi, and development of the Bus Rapid Transit (BRT) corridor.",
+          "They have also undertaken projects in parking management, traffic signal modernization, and urban infrastructure development across Delhi.",
+          "DIMTS focuses on sustainable and integrated transport solutions for urban areas."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "career",
+        "patterns": ["Are there job opportunities at DIMTS?", "How can I join DIMTS?", "Tell me about careers at DIMTS"],
+        "responses": [
+          "Explore career opportunities at DIMTS on their official careers page: https://www.dimts.in/careers/. They offer positions in urban planning, engineering, project management, IT, and more.",
+          "Visit DIMTS's careers section to apply for current job openings and internships.",
+          "Join the team at DIMTS and contribute to innovative solutions in urban transport and infrastructure."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's new at DIMTS?", "Latest news from DIMTS", "Updates from DIMTS"],
+        "responses": [
+          "Stay updated with the latest news and announcements from DIMTS on their news page: https://www.dimts.in/news/.",
+          "Read about their recent projects, partnerships, and innovations in urban transport.",
+          "Follow DIMTS for news on advancements in transportation technology and urban development."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "smart_card",
+        "patterns": ["What is DIMTS's smart card?", "Tell me about DIMTS's smart card", "Details about DIMTS's smart card"],
+        "responses": [
+          "DIMTS offers a smart card-based fare collection system for public transport in Delhi. The card can be used across various modes of transport, providing convenience and integration.",
+          "The DIMTS smart card facilitates cashless transactions and offers discounts for frequent commuters. It supports seamless travel across buses, metro, and other transport modes.",
+          "Learn more about DIMTS's smart card and its benefits for commuters in Delhi."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "traffic_management",
+        "patterns": ["How does DIMTS manage traffic?", "Tell me about DIMTS's traffic management", "Traffic solutions by DIMTS"],
+        "responses": [
+          "DIMTS implements intelligent traffic management solutions to optimize traffic flow and reduce congestion in urban areas.",
+          "Their systems include real-time monitoring, signal synchronization, and adaptive traffic control strategies.",
+          "DIMTS integrates technology and data-driven approaches to enhance commuter safety and efficiency in city traffic."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "parking_management",
+        "patterns": ["What is DIMTS's parking management system?", "Tell me about DIMTS's parking solutions", "Parking management by DIMTS"],
+        "responses": [
+          "DIMTS provides parking management solutions including automated systems, mobile app-based booking, and real-time availability updates.",
+          "Their services aim to streamline parking operations, reduce traffic congestion, and improve urban mobility.",
+          "Explore DIMTS's innovative parking solutions for efficient utilization of urban space."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "bus_rapid_transit",
+        "patterns": ["What is DIMTS's Bus Rapid Transit (BRT) system?", "Tell me about DIMTS's BRT", "Details about BRT by DIMTS"],
+        "responses": [
+          "DIMTS designs and implements Bus Rapid Transit (BRT) systems to enhance public transport efficiency and reduce travel time.",
+          "Their BRT corridors feature dedicated lanes, modern buses, and smart infrastructure to prioritize buses and improve commuter experience.",
+          "Learn about DIMTS's BRT projects and their impact on urban transport in Delhi."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "intelligent_transport_system",
+        "patterns": ["What is DIMTS's Intelligent Transport System (ITS)?", "Tell me about DIMTS's ITS", "Details about ITS by DIMTS"],
+        "responses": [
+          "DIMTS develops Intelligent Transport Systems (ITS) to integrate technology into urban transport management.",
+          "Their ITS solutions include real-time tracking, passenger information systems, and smart analytics for efficient transport operations.",
+          "Explore DIMTS's ITS innovations and their role in improving commuter experience and urban mobility."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "faqs",
+        "patterns": ["Do you have any FAQs?", "Frequently asked questions", "Help with common questions"],
+        "responses": [
+          "Check out DIMTS's FAQ section for answers to common queries: https://www.dimts.in/faq/.",
+          "Find solutions to frequently asked questions about DIMTS's services, projects, and more.",
+          "Explore the FAQ page for quick assistance with common inquiries about urban transport and infrastructure."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "sustainability",
+        "patterns": ["How does DIMTS promote sustainability?", "Tell me about DIMTS's sustainability efforts", "Sustainable practices by DIMTS"],
+        "responses": [
+          "DIMTS incorporates sustainable practices in urban transport planning and infrastructure development.",
+          "They focus on reducing carbon footprint, promoting eco-friendly transport modes, and implementing green technologies.",
+          "Learn about DIMTS's initiatives for sustainable urban development and environmental conservation."
+        ],
+        "context": [""]
+      },{
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Hey! How can I assist you?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Have a great day.", "See you later! Come back soon.", "Take care!"],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+        "responses": ["You're welcome!", "My pleasure to assist.", "Glad to help!"],
+        "context": [""]
+      },
+      {
+        "tag": "about_dimts",
+        "patterns": ["What does DIMTS do?", "Tell me about DIMTS", "What services does DIMTS offer?"],
+        "responses": ["DIMTS (Delhi Integrated Multi-Modal Transit System) is an urban transport and infrastructure development company based in Delhi, India. It provides consultancy, project management, and operations & maintenance services in transportation and urban development projects.", "DIMTS specializes in enhancing urban mobility through innovative solutions and sustainable development practices.", "DIMTS focuses on integrating various modes of transport to improve commuter experience and reduce congestion."],
+        "context": [""]
+      },
+      {
+        "tag": "contact_info",
+        "patterns": ["How can I contact DIMTS?", "What are DIMTS's contact details?", "Where is DIMTS located?"],
+        "responses": ["You can reach DIMTS at their office in Delhi: DIMTS Ltd., 2nd Floor, Maharana Pratap ISBT Building, Kashmere Gate, Delhi - 110006, India. Phone: +91-11-23935750, Email: info@dimts.in", "For contact details and office address, visit their official website: https://www.dimts.in/contact-us/", "DIMTS is located at Maharana Pratap Inter State Bus Terminus (ISBT), Kashmere Gate, Delhi."],
+        "context": [""]
+      },
+      {
+        "tag": "services",
+        "patterns": ["What services does DIMTS offer?", "Tell me about DIMTS's services", "Services provided by DIMTS"],
+        "responses": ["DIMTS offers a wide range of services including urban transport planning, project management, intelligent transportation systems (ITS), parking management, and infrastructure development.", "They specialize in bus rapid transit (BRT) systems, smart card-based fare collection, and traffic management solutions.", "DIMTS provides consultancy services for urban mobility, public transportation, and transit-oriented development (TOD) projects."],
+        "context": [""]
+      },
+      {
+        "tag": "partnerships",
+        "patterns": ["Who are DIMTS's partners?", "Tell me about DIMTS's partnerships", "Partners of DIMTS"],
+        "responses": ["DIMTS collaborates with various government agencies, municipal corporations, and private enterprises to implement urban transport solutions.", "Their key partnerships include associations with Delhi government departments, transportation authorities, and infrastructure developers.", "DIMTS partners with technology firms and global consultants to bring cutting-edge solutions to urban mobility challenges."],
+        "context": [""]
+      },
+      {
+        "tag": "projects",
+        "patterns": ["What are some projects by DIMTS?", "Tell me about DIMTS's projects", "Projects undertaken by DIMTS"],
+        "responses": ["DIMTS has been involved in significant projects such as the Delhi Integrated Multi-Modal Transit System (DIMTS), implementation of the Intelligent Transport Management System (ITMS) in Delhi, and development of the Bus Rapid Transit (BRT) corridor.", "They have also undertaken projects in parking management, traffic signal modernization, and urban infrastructure development across Delhi.", "DIMTS focuses on sustainable and integrated transport solutions for urban areas."],
+        "context": [""]
+      },
+      {
+        "tag": "career",
+        "patterns": ["Are there job opportunities at DIMTS?", "How can I join DIMTS?", "Tell me about careers at DIMTS"],
+        "responses": ["Explore career opportunities at DIMTS on their official careers page: https://www.dimts.in/careers/. They offer positions in urban planning, engineering, project management, IT, and more.", "Visit DIMTS's careers section to apply for current job openings and internships.", "Join the team at DIMTS and contribute to innovative solutions in urban transport and infrastructure."],
+        "context": [""]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's new at DIMTS?", "Latest news from DIMTS", "Updates from DIMTS"],
+        "responses": ["Stay updated with the latest news and announcements from DIMTS on their news page: https://www.dimts.in/news/.", "Read about their recent projects, partnerships, and innovations in urban transport.", "Follow DIMTS for news on advancements in transportation technology and urban development."],
+        "context": [""]
+      },
+      {
+        "tag": "smart_card",
+        "patterns": ["What is DIMTS's smart card?", "Tell me about DIMTS's smart card", "Details about DIMTS's smart card"],
+        "responses": ["DIMTS offers a smart card-based fare collection system for public transport in Delhi. The card can be used across various modes of transport, providing convenience and integration.", "The DIMTS smart card facilitates cashless transactions and offers discounts for frequent commuters. It supports seamless travel across buses, metro, and other transport modes.", "Learn more about DIMTS's smart card and its benefits for commuters in Delhi."],
+        "context": [""]
+      },
+      {
+        "tag": "traffic_management",
+        "patterns": ["How does DIMTS manage traffic?", "Tell me about DIMTS's traffic management", "Traffic solutions by DIMTS"],
+        "responses": ["DIMTS implements intelligent traffic management solutions to optimize traffic flow and reduce congestion in urban areas.", "Their systems include real-time monitoring, signal synchronization, and adaptive traffic control strategies.", "DIMTS integrates technology and data-driven approaches to enhance commuter safety and efficiency in city traffic."],
+        "context": [""]
+      },
+      {
+        "tag": "parking_management",
+        "patterns": ["What is DIMTS's parking management system?", "Tell me about DIMTS's parking solutions", "Parking management by DIMTS"],
+        "responses": ["DIMTS provides parking management solutions including automated systems, mobile app-based booking, and real-time availability updates.", "Their services aim to streamline parking operations, reduce traffic congestion, and improve urban mobility.", "Explore DIMTS's innovative parking solutions for efficient utilization of urban space."],
+        "context": [""]
+      },
+      {
+        "tag": "bus_rapid_transit",
+        "patterns": ["What is DIMTS's Bus Rapid Transit (BRT) system?", "Tell me about DIMTS's BRT", "Details about BRT by DIMTS"],
+        "responses": ["DIMTS designs and implements Bus Rapid Transit (BRT) systems to enhance public transport efficiency and reduce travel time.", "Their BRT corridors feature dedicated lanes, modern buses, and smart infrastructure to prioritize buses and improve commuter experience.", "Learn about DIMTS's BRT projects and their impact on urban transport in Delhi."],
+        "context": [""]
+      },
+      {
+        "tag": "intelligent_transport_system",
+        "patterns": ["What is DIMTS's Intelligent Transport System (ITS)?", "Tell me about DIMTS's ITS", "Details about ITS by DIMTS"],
+        "responses": ["DIMTS develops Intelligent Transport Systems (ITS) to integrate technology into urban transport management.", "Their ITS solutions include real-time tracking, passenger information systems, and smart analytics for efficient transport operations.", "Explore DIMTS's ITS innovations and their role in improving commuter experience and urban mobility."],
+        "context": [""]
+      },
+      {
+        "tag": "faqs",
+        "patterns": ["Do you have any FAQs?", "Frequently asked questions", "Help with common questions"],
+        "responses": ["Check out DIMTS's FAQ section for answers to common queries: https://www.dimts.in/faq/.", "Find solutions to frequently asked questions about DIMTS's services, projects, and more.", "Explore the FAQ page for quick assistance with common inquiries about urban transport and infrastructure."],
+        "context": [""]
+      },
+      {
+        "tag": "sustainability",
+        "patterns": ["How does DIMTS promote sustainability?", "Tell me about DIMTS's sustainability efforts", "Sustainable practices by DIMTS"],
+        "responses": ["DIMTS incorporates sustainable practices in urban transport planning and infrastructure development.", "They focus on reducing carbon footprint, promoting eco-friendly transport modes, and implementing green technologies.", "Learn about DIMTS's initiatives for sustainable urban development and environmental conservation."],
+        "context": [""]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Hey! How can I assist you?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Have a great day.", "See you later! Come back soon.", "Take care!"],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+        "responses": ["You're welcome!", "My pleasure to assist.", "Glad to help!"],
+        "context": [""]
+      },
+      {
+        "tag": "about_dimts",
+        "patterns": ["What does DIMTS do?", "Tell me about DIMTS", "What services does DIMTS offer?"],
+        "responses": ["DIMTS (Delhi Integrated Multi-Modal Transit System) is an urban transport and infrastructure development company based in Delhi, India. It provides consultancy, project management, and operations & maintenance services in transportation and urban development projects.", "DIMTS specializes in enhancing urban mobility through innovative solutions and sustainable development practices.", "DIMTS focuses on integrating various modes of transport to improve commuter experience and reduce congestion."],
+        "context": [""]
+      },
+      {
+        "tag": "contact_info",
+        "patterns": ["How can I contact DIMTS?", "What are DIMTS's contact details?", "Where is DIMTS located?"],
+        "responses": ["You can reach DIMTS at their office in Delhi: DIMTS Ltd., 2nd Floor, Maharana Pratap ISBT Building, Kashmere Gate, Delhi - 110006, India. Phone: +91-11-23935750, Email: info@dimts.in", "For contact details and office address, visit their official website: https://www.dimts.in/contact-us/", "DIMTS is located at Maharana Pratap Inter State Bus Terminus (ISBT), Kashmere Gate, Delhi."],
+        "context": [""]
+      },
+      {
+        "tag": "services",
+        "patterns": ["What services does DIMTS offer?", "Tell me about DIMTS's services", "Services provided by DIMTS"],
+        "responses": ["DIMTS offers a wide range of services including urban transport planning, project management, intelligent transportation systems (ITS), parking management, and infrastructure development.", "They specialize in bus rapid transit (BRT) systems, smart card-based fare collection, and traffic management solutions.", "DIMTS provides consultancy services for urban mobility, public transportation, and transit-oriented development (TOD) projects."],
+        "context": [""]
+      },
+      {
+        "tag": "partnerships",
+        "patterns": ["Who are DIMTS's partners?", "Tell me about DIMTS's partnerships", "Partners of DIMTS"],
+        "responses": ["DIMTS collaborates with various government agencies, municipal corporations, and private enterprises to implement urban transport solutions.", "Their key partnerships include associations with Delhi government departments, transportation authorities, and infrastructure developers.", "DIMTS partners with technology firms and global consultants to bring cutting-edge solutions to urban mobility challenges."],
+        "context": [""]
+      },
+      {
+        "tag": "projects",
+        "patterns": ["What are some projects by DIMTS?", "Tell me about DIMTS's projects", "Projects undertaken by DIMTS"],
+        "responses": ["DIMTS has been involved in significant projects such as the Delhi Integrated Multi-Modal Transit System (DIMTS), implementation of the Intelligent Transport Management System (ITMS) in Delhi, and development of the Bus Rapid Transit (BRT) corridor.", "They have also undertaken projects in parking management, traffic signal modernization, and urban infrastructure development across Delhi.", "DIMTS focuses on sustainable and integrated transport solutions for urban areas."],
+        "context": [""]
+      },
+      {
+        "tag": "career",
+        "patterns": ["Are there job opportunities at DIMTS?", "How can I join DIMTS?", "Tell me about careers at DIMTS"],
+        "responses": ["Explore career opportunities at DIMTS on their official careers page: https://www.dimts.in/careers/. They offer positions in urban planning, engineering, project management, IT, and more.", "Visit DIMTS's careers section to apply for current job openings and internships.", "Join the team at DIMTS and contribute to innovative solutions in urban transport and infrastructure."],
+        "context": [""]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's new at DIMTS?", "Latest news from DIMTS", "Updates from DIMTS"],
+        "responses": ["Stay updated with the latest news and announcements from DIMTS on their news page: https://www.dimts.in/news/.", "Read about their recent projects, partnerships, and innovations in urban transport.", "Follow DIMTS for news on advancements in transportation technology and urban development."],
+        "context": [""]
+      },
+      {
+        "tag": "smart_card",
+        "patterns": ["What is DIMTS's smart card?", "Tell me about DIMTS's smart card", "Details about DIMTS's smart card"],
+        "responses": ["DIMTS offers a smart card-based fare collection system for public transport in Delhi. The card can be used across various modes of transport, providing convenience and integration.", "The DIMTS smart card facilitates cashless transactions and offers discounts for frequent commuters. It supports seamless travel across buses, metro, and other transport modes.", "Learn more about DIMTS's smart card and its benefits for commuters in Delhi."],
+        "context": [""]
+      },
+      {
+        "tag": "traffic_management",
+        "patterns": ["How does DIMTS manage traffic?", "Tell me about DIMTS's traffic management", "Traffic solutions by DIMTS"],
+        "responses": ["DIMTS implements intelligent traffic management solutions to optimize traffic flow and reduce congestion in urban areas.", "Their systems include real-time monitoring, signal synchronization, and adaptive traffic control strategies.", "DIMTS integrates technology and data-driven approaches to enhance commuter safety and efficiency in city traffic."],
+        "context": [""]
+      },
+      {
+        "tag": "parking_management",
+        "patterns": ["What is DIMTS's parking management system?", "Tell me about DIMTS's parking solutions", "Parking management by DIMTS"],
+        "responses": ["DIMTS provides parking management solutions including automated systems, mobile app-based booking, and real-time availability updates.", "Their services aim to streamline parking operations, reduce traffic congestion, and improve urban mobility.", "Explore DIMTS's innovative parking solutions for efficient utilization of urban space."],
+        "context": [""]
+      },
+      {
+        "tag": "bus_rapid_transit",
+        "patterns": ["What is DIMTS's Bus Rapid Transit (BRT) system?", "Tell me about DIMTS's BRT", "Details about BRT by DIMTS"],
+        "responses": ["DIMTS designs and implements Bus Rapid Transit (BRT) systems to enhance public transport efficiency and reduce travel time.", "Their BRT corridors feature dedicated lanes, modern buses, and smart infrastructure to prioritize buses and improve commuter experience.", "Learn about DIMTS's BRT projects and their impact on urban transport in Delhi."],
+        "context": [""]
+      },
+      {
+        "tag": "intelligent_transport_system",
+        "patterns": ["What is DIMTS's Intelligent Transport System (ITS)?", "Tell me about DIMTS's ITS", "Details about ITS by DIMTS"],
+        "responses": ["DIMTS develops Intelligent Transport Systems (ITS) to integrate technology into urban transport management.", "Their ITS solutions include real-time tracking, passenger information systems, and smart analytics for efficient transport operations.", "Explore DIMTS's ITS innovations and their role in improving commuter experience and urban mobility."],
+        "context": [""]
+      },
+      {
+        "tag": "faqs",
+        "patterns": ["Do you have any FAQs?", "Frequently asked questions", "Help with common questions"],
+        "responses": ["Check out DIMTS's FAQ section for answers to common queries: https://www.dimts.in/faq/.", "Find solutions to frequently asked questions about DIMTS's services, projects, and more.", "Explore the FAQ page for quick assistance with common inquiries about urban transport and infrastructure."],
+        "context": [""]
+      },
+      {
+        "tag": "sustainability",
+        "patterns": ["How does DIMTS promote sustainability?", "Tell me about DIMTS's sustainability efforts", "Sustainable practices by DIMTS"],
+        "responses": ["DIMTS incorporates sustainable practices in urban transport planning and infrastructure development.", "They focus on reducing carbon footprint, promoting eco-friendly transport modes, and implementing green technologies.", "Learn about DIMTS's initiatives for sustainable urban development and environmental conservation."],
+        "context": [""]
+      },
+      {
+        "tag": "social_media",
+        "patterns": ["Where can I find DIMTS on social media?", "DIMTS's social media channels", "Follow DIMTS on social media"],
+        "responses": ["Connect with DIMTS on their official social media channels: Facebook, Twitter, LinkedIn, and Instagram.", "Stay updated with news, events, and announcements from DIMTS through their social media platforms.", "Follow DIMTS for insights into urban transport developments, project updates, and industry news."],
+        "context": [""]
+        },
+        {
+      "tag": "services",
+      "patterns": ["What services does DIMTS offer?", "Tell me about DIMTS's services", "Services provided by DIMTS"],
+      "responses": ["DIMTS offers a wide range of services including urban transport planning, project management, intelligent transportation systems (ITS), parking management, and infrastructure development.", "They specialize in bus rapid transit (BRT) systems, smart card-based fare collection, and traffic management solutions.", "DIMTS provides consultancy services for urban mobility, public transportation, and transit-oriented development (TOD) projects."],
+      "context": [""]
+    },
+    {
+      "tag": "partnerships",
+      "patterns": ["Who are DIMTS's partners?", "Tell me about DIMTS's partnerships", "Partners of DIMTS"],
+      "responses": ["DIMTS collaborates with various government agencies, municipal corporations, and private enterprises to implement urban transport solutions.", "Their key partnerships include associations with Delhi government departments, transportation authorities, and infrastructure developers.", "DIMTS partners with technology firms and global consultants to bring cutting-edge solutions to urban mobility challenges."],
+      "context": [""]
+    },
+    {
+      "tag": "projects",
+      "patterns": ["What are some projects by DIMTS?", "Tell me about DIMTS's projects", "Projects undertaken by DIMTS"],
+      "responses": ["DIMTS has been involved in significant projects such as the Delhi Integrated Multi-Modal Transit System (DIMTS), implementation of the Intelligent Transport Management System (ITMS) in Delhi, and development of the Bus Rapid Transit (BRT) corridor.", "They have also undertaken projects in parking management, traffic signal modernization, and urban infrastructure development across Delhi.", "DIMTS focuses on sustainable and integrated transport solutions for urban areas."],
+      "context": [""]
+    },
+    {
+      "tag": "career",
+      "patterns": ["Are there job opportunities at DIMTS?", "How can I join DIMTS?", "Tell me about careers at DIMTS"],
+      "responses": ["Explore career opportunities at DIMTS on their official careers page: https://www.dimts.in/careers/. They offer positions in urban planning, engineering, project management, IT, and more.", "Visit DIMTS's careers section to apply for current job openings and internships.", "Join the team at DIMTS and contribute to innovative solutions in urban transport and infrastructure."],
+      "context": [""]
+    },
+    {
+      "tag": "news",
+      "patterns": ["What's new at DIMTS?", "Latest news from DIMTS", "Updates from DIMTS"],
+      "responses": ["Stay updated with the latest news and announcements from DIMTS on their news page: https://www.dimts.in/news/.", "Read about their recent projects, partnerships, and innovations in urban transport.", "Follow DIMTS for news on advancements in transportation technology and urban development."],
+      "context": [""]
+    },
+    {
+      "tag": "smart_card",
+      "patterns": ["What is DIMTS's smart card?", "Tell me about DIMTS's smart card", "Details about DIMTS's smart card"],
+      "responses": ["DIMTS offers a smart card-based fare collection system for public transport in Delhi. The card can be used across various modes of transport, providing convenience and integration.", "The DIMTS smart card facilitates cashless transactions and offers discounts for frequent commuters. It supports seamless travel across buses, metro, and other transport modes.", "Learn more about DIMTS's smart card and its benefits for commuters in Delhi."],
+      "context": [""]
+    },
+    {
+      "tag": "traffic_management",
+      "patterns": ["How does DIMTS manage traffic?", "Tell me about DIMTS's traffic management", "Traffic solutions by DIMTS"],
+      "responses": ["DIMTS implements intelligent traffic management solutions to optimize traffic flow and reduce congestion in urban areas.", "Their systems include real-time monitoring, signal synchronization, and adaptive traffic control strategies.", "DIMTS integrates technology and data-driven approaches to enhance commuter safety and efficiency in city traffic."],
+      "context": [""]
+    },
+    {
+      "tag": "parking_management",
+      "patterns": ["What is DIMTS's parking management system?", "Tell me about DIMTS's parking solutions", "Parking management by DIMTS"],
+      "responses": ["DIMTS provides parking management solutions including automated systems, mobile app-based booking, and real-time availability updates.", "Their services aim to streamline parking operations, reduce traffic congestion, and improve urban mobility.", "Explore DIMTS's innovative parking solutions for efficient utilization of urban space."],
+      "context": [""]
+    },
+    {
+      "tag": "bus_rapid_transit",
+      "patterns": ["What is DIMTS's Bus Rapid Transit (BRT) system?", "Tell me about DIMTS's BRT", "Details about BRT by DIMTS"],
+      "responses": ["DIMTS designs and implements Bus Rapid Transit (BRT) systems to enhance public transport efficiency and reduce travel time.", "Their BRT corridors feature dedicated lanes, modern buses, and smart infrastructure to prioritize buses and improve commuter experience.", "Learn about DIMTS's BRT projects and their impact on urban transport in Delhi."],
+      "context": [""]
+    },
+    {
+      "tag": "intelligent_transport_system",
+      "patterns": ["What is DIMTS's Intelligent Transport System (ITS)?", "Tell me about DIMTS's ITS", "Details about ITS by DIMTS"],
+      "responses": ["DIMTS develops Intelligent Transport Systems (ITS) to integrate technology into urban transport management.", "Their ITS solutions include real-time tracking, passenger information systems, and smart analytics for efficient transport operations.", "Explore DIMTS's ITS innovations and their role in improving commuter experience and urban mobility."],
+      "context": [""]
+    },
+    {
+      "tag": "faqs",
+      "patterns": ["Do you have any FAQs?", "Frequently asked questions", "Help with common questions"],
+      "responses": ["Check out DIMTS's FAQ section for answers to common queries: https://www.dimts.in/faq/.", "Find solutions to frequently asked questions about DIMTS's services, projects, and more.", "Explore the FAQ page for quick assistance with common inquiries about urban transport and infrastructure."],
+      "context": [""]
+    },
+    {
+      "tag": "sustainability",
+      "patterns": ["How does DIMTS promote sustainability?", "Tell me about DIMTS's sustainability efforts", "Sustainable practices by DIMTS"],
+      "responses": ["DIMTS incorporates sustainable practices in urban transport planning and infrastructure development.", "They focus on reducing carbon footprint, promoting eco-friendly transport modes, and implementing green technologies.", "Learn about DIMTS's initiatives for sustainable urban development and environmental conservation."],
+      "context": [""]
+    },
+    {
+        "tag": "services",
+        "patterns": ["What services does DIMTS offer?", "Tell me about DIMTS's services", "Services provided by DIMTS"],
+        "responses": ["DIMTS offers a wide range of services including urban transport planning, project management, intelligent transportation systems (ITS), parking management, and infrastructure development.", "They specialize in bus rapid transit (BRT) systems, smart card-based fare collection, and traffic management solutions.", "DIMTS provides consultancy services for urban mobility, public transportation, and transit-oriented development (TOD) projects."],
+        "context": [""]
+    },
+    {
+        "tag": "partnerships",
+        "patterns": ["Who are DIMTS's partners?", "Tell me about DIMTS's partnerships", "Partners of DIMTS"],
+        "responses": ["DIMTS collaborates with various government agencies, municipal corporations, and private enterprises to implement urban transport solutions.", "Their key partnerships include associations with Delhi government departments, transportation authorities, and infrastructure developers.", "DIMTS partners with technology firms and global consultants to bring cutting-edge solutions to urban mobility challenges."],
+        "context": [""]
+    },
+    {
+        "tag": "projects",
+        "patterns": ["What are some projects by DIMTS?", "Tell me about DIMTS's projects", "Projects undertaken by DIMTS"],
+        "responses": ["DIMTS has been involved in significant projects such as the Delhi Integrated Multi-Modal Transit System (DIMTS), implementation of the Intelligent Transport Management System (ITMS) in Delhi, and development of the Bus Rapid Transit (BRT) corridor.", "They have also undertaken projects in parking management, traffic signal modernization, and urban infrastructure development across Delhi.", "DIMTS focuses on sustainable and integrated transport solutions for urban areas."],
+        "context": [""]
+    },
+    {
+        "tag": "career",
+        "patterns": ["Are there job opportunities at DIMTS?", "How can I join DIMTS?", "Tell me about careers at DIMTS"],
+        "responses": ["Explore career opportunities at DIMTS on their official careers page: https://www.dimts.in/careers/. They offer positions in urban planning, engineering, project management, IT, and more.", "Visit DIMTS's careers section to apply for current job openings and internships.", "Join the team at DIMTS and contribute to innovative solutions in urban transport and infrastructure."],
+        "context": [""]
+    },
+    {
+        "tag": "news",
+        "patterns": ["What's new at DIMTS?", "Latest news from DIMTS", "Updates from DIMTS"],
+        "responses": ["Stay updated with the latest news and announcements from DIMTS on their news page: https://www.dimts.in/news/.", "Read about their recent projects, partnerships, and innovations in urban transport.", "Follow DIMTS for news on advancements in transportation technology and urban development."],
+        "context": [""]
+    },
+    {
+        "tag": "smart_card",
+        "patterns": ["What is DIMTS's smart card?", "Tell me about DIMTS's smart card", "Details about DIMTS's smart card"],
+        "responses": ["DIMTS offers a smart card-based fare collection system for public transport in Delhi. The card can be used across various modes of transport, providing convenience and integration.", "The DIMTS smart card facilitates cashless transactions and offers discounts for frequent commuters. It supports seamless travel across buses, metro, and other transport modes.", "Learn more about DIMTS's smart card and its benefits for commuters in Delhi."],
+        "context": [""]
+    },
+    {
+        "tag": "traffic_management",
+        "patterns": ["How does DIMTS manage traffic?", "Tell me about DIMTS's traffic management", "Traffic solutions by DIMTS"],
+        "responses": ["DIMTS implements intelligent traffic management solutions to optimize traffic flow and reduce congestion in urban areas.", "Their systems include real-time monitoring, signal synchronization, and adaptive traffic control strategies.", "DIMTS integrates technology and data-driven approaches to enhance commuter safety and efficiency in city traffic."],
+        "context": [""]
+    },
+    {
+        "tag": "parking_management",
+        "patterns": ["What is DIMTS's parking management system?", "Tell me about DIMTS's parking solutions", "Parking management by DIMTS"],
+        "responses": ["DIMTS provides parking management solutions including automated systems, mobile app-based booking, and real-time availability updates.", "Their services aim to streamline parking operations, reduce traffic congestion, and improve urban mobility.", "Explore DIMTS's innovative parking solutions for efficient utilization of urban space."],
+        "context": [""]
+    },
+    {
+        "tag": "bus_rapid_transit",
+        "patterns": ["What is DIMTS's Bus Rapid Transit (BRT) system?", "Tell me about DIMTS's BRT", "Details about BRT by DIMTS"],
+        "responses": ["DIMTS designs and implements Bus Rapid Transit (BRT) systems to enhance public transport efficiency and reduce travel time.", "Their BRT corridors feature dedicated lanes, modern buses, and smart infrastructure to prioritize buses and improve commuter experience.", "Learn about DIMTS's BRT projects and their impact on urban transport in Delhi."],
+        "context": [""]
+    },
+    {
+        "tag": "intelligent_transport_system",
+        "patterns": ["What is DIMTS's Intelligent Transport System (ITS)?", "Tell me about DIMTS's ITS", "Details about ITS by DIMTS"],
+        "responses": ["DIMTS develops Intelligent Transport Systems (ITS) to integrate technology into urban transport management.", "Their ITS solutions include real-time tracking, passenger information systems, and smart analytics for efficient transport operations.", "Explore DIMTS's ITS innovations and their role in improving commuter experience and urban mobility."],
+        "context": [""]
+    },
+    {
+        "tag": "faqs",
+        "patterns": ["Do you have any FAQs?", "Frequently asked questions", "Help with common questions"],
+        "responses": ["Check out DIMTS's FAQ section for answers to common queries: https://www.dimts.in/faq/.", "Find solutions to frequently asked questions about DIMTS's services, projects, and more.", "Explore the FAQ page for quick assistance with common inquiries about urban transport and infrastructure."],
+        "context": [""]
+    },
+    {
+        "tag": "sustainability",
+        "patterns": ["How does DIMTS promote sustainability?", "Tell me about DIMTS's sustainability efforts", "Sustainable practices by DIMTS"],
+        "responses": ["DIMTS incorporates sustainable practices in urban transport planning and infrastructure development.", "They focus on reducing carbon footprint, promoting eco-friendly transport modes, and implementing green technologies.", "Learn about DIMTS's initiatives for sustainable urban development and environmental conservation."],
+        "context": [""]
+    }
+]
+}         
+      
